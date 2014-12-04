@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jabboid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="scanText">Scanning&#8230;</string>
+    <string name="scanButtonText">Scan</string>
+    <string name="callScannerText">QR-Code Scanner</string>
+    <string name="callXmppChatText">Chat</string>
+    <string name="callBuddiesListText">Buddies</string>
+    <string name="fetchbuddiesBtnText">Fetch Buddies</string>
+    
+    <string name="contacts_list_search_results_title">Search results</string>
+    <string name="search_hint">Contacts search</string>
+    <string name="activity_contacts_list">Contacts list</string>
+    <string name="activity_contact_detail">Contacts details</string>
+    <string name="imageview_description">Contact Thumbnail</string>
+    <string name="no_contact_selected">No Contact Selected</string>
+    <string name="address_button_description">View Address</string>
+    <string name="no_contacts">No Contacts Found</string>
+    
+     <!-- When using ContactsContract.Contacts#CONTENT_FILTER_URI to search contacts, a match occurs
+         when using a number of different fields, such as name, e-mail address, address, phone
+         number, etc. When a match occurs that is not the name, there is currently no way to tell
+         which other field was matched. This string is displayed in the secondary display text in
+         ContactsListFragment when a search query match occurs that is not the display name.
+         -->
+    <string name="search_match_other">Matches Other Field</string>
+    <!-- Used for the AlphabetIndexer in ContactsListFragment to provide quick navigation by
+         alphabet using ListView fast scroll. -->
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    
+    <string name="no_address">No addresses found</string>
+    <string name="no_intent_found">No application found to handle this action</string>
+    <string name="menu_add_contact">Add Contact</string>
+    <string name="menu_edit_contact">Edit Contact</string>
+    <string name="menu_search">Search</string>
+    <string name="callContactsList">Contacts</string>
+    <string name="connectBTN">Connect</string>
+    <string name="password">Password</string>
+    <string name="userid">ID</string>
+    <string name="Service">Service</string>
+    <string name="xmppPort">5222</string>
+    <string name="HostPort">Host/Port</string>
+    <string name="quitText">Exit</string>
+    <string name="MessageHint">Message</string>
+    <string name="JabberID">Jabber ID</string>
+    <string name="jabberFr">jabber.fr</string>
+    <string name="sendBtn">Send Message</string>
+    <string name="addContactButtonText">Add contact</string>
+    <string name="contactAdded">Success: Contact Added</string>
+    <string name="contactNotAdded">Error: Contact Not Added</string>
+    <string name="isNotJSON">Error: QRCode has\'nt JSON Structure</string>
+    <string name="isNotJabboidJSON">Error: Wrong JSON Structure</string>
+    <string name="action_online">Online</string>
+    <string name="action_away">Away</string>
+    <string name="action_occupied">Occupied</string>
+    <string name="errorSettingPresence">Error: Setting presence failed</string>
+    <string name="unestablishedConnection">Error: Couldn\'t establish connection</string>
+    <string name="connectionEstablished">Connection established</string>
+    <string name="qr_code_found">QR Code has been found !</string>
+    <string name="connectionSettings">Connection Settings</string>
+    <string name="presence_online">You are now: Online !</string>
+    <string name="presence_away">You are now: Away !</string>
+    <string name="presence_dnd">You are now: Occupied !</string>
+</resources>

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fr.jbteam.jabboid.MainActivity" >
+    
+    <item
+        android:id="@+id/quit"
+        android:orderInCategory="100"
+        android:title="@string/quitText"
+        app:showAsAction="never"
+    />
+    
+</menu>
